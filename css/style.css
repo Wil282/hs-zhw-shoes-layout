@@ -301,5 +301,23 @@ footer a {
   color: #555;
   text-decoration: underline;
 }
-
+#brands {
+display:grid;
+grid-template-columns:74% 25%;
+grid-gap:10px;
+}
+#shoes {
+  display:grid;
+  grid-template-columns:32.5% 32.5% 32.5%;
+  grid-gap:10px;
+  margin-top:10px;
+}
+#footer {
+  display:grid;
+  grid-template-columns:32.5% 32.5% 32.5%;
+  grid-gap:10px;
+}
+#milk_text {
+  margin-top: 1.5%;
+}
 /* code examples copyright Jonathan Grover 2012 */
